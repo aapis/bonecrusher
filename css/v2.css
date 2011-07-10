@@ -1,0 +1,100 @@
+span.bugid {
+	font-size: 10pt;
+	color: #267199;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#bug-list {
+	width:100%;
+	float:left;
+}
+
+div.project-header-row {
+	float:left;
+	width:100%;
+}
+
+li.project-task div {
+	float: left;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+li.project-task {
+	clear:both;
+	float:left;
+}
+
+#bug-list ul {
+	list-style: none;
+	float:left;
+	width:100%;
+	margin:0px;
+}
+
+div.task-summary {
+	width:630px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+div.task-summary .internal-content {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+div.assignment-cell {
+	width:200px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: right;
+}
+
+div.assignment-cell.r1 {
+	background-color: #FFF;
+}	
+
+div.assignment-cell.r2 {
+	background-color:#F0F0F0;
+}
+
+div.assignment-cell .internal-content {
+	margin-left:15px;
+	margin-right:15px;
+	float:right;
+}
+
+div.task-status-cell {
+	width:130px;
+	text-align: center;
+	padding-left:0px;
+	padding-right:0px;
+	border:medium none !important;
+	height:18px;
+}
+
+div.task-status-cell .internal-content {
+	text-shadow: 0 1px 1px #000000;
+	color:white;
+	font-weight:bold;
+}
+ 
+div.red {
+    background: url("../images/blue-overlay.png") repeat-x scroll left top #D1E4EF;
+}
+
+div.yellow {
+    background: url("../images/blue-overlay.png") repeat-x scroll left top #6B8B9E;
+}
+
+div.purple {
+    background: url("../images/blue-overlay.png") repeat-x scroll left top #3875D7;
+}
+
+div.green {
+    background: url("../images/blue-overlay.png") repeat-x scroll left top #A2C3D7;
+}
+
+p.ftext {
+	clear:both;
+}

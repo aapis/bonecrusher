@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^bug/([0-9]+)/$ bug.php?bug=$1 [L,QSA]
+RewriteRule ^level/([0-9]+)/$ index.php?level=$1 [L,QSA]
+RewriteRule ^completed/$ index.php?completed=1 [L,QSA]
+RewriteRule ^user/([0-9]+)/$ index.php?user=$1 [L,QSA]
+RewriteRule ^group/([0-9]+)/$ index.php?group=$1 [L,QSA]
+RewriteRule ^search/([a-zA-Z0-9-]+)/$ index.php?do=search&q=$1 [L,QSA]

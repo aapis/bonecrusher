@@ -1,0 +1,105 @@
+* {outline: none;}
+img {border: none;}
+body {font-family: Helvetica, sans-serif; font-size: 1em; margin: 20px 0; padding: 0; color: #000; background-color: #fff;}
+body a {color: #738291; text-decoration: none;}
+body a:hover {text-decoration: underline;}
+#wrapper {width: 960px; margin: 0 auto;}
+code {background: #fff; border: 1px dashed #555; padding: 3px 3px 3px 10px; margin: 5px; text-align: center;}
+
+label {width: 150px; text-align: right; display: block; background: #d0d0d0 url("../images/apple-btn.png") repeat-x bottom left; color: #000; text-shadow: 0 1px 1px #dcdcd9; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border: 1px solid #555; padding: 6px 11px; cursor: pointer;}
+label+input, label+select, label+textarea {position: relative; left: 180px; top: -26px; border: 1px solid #555;}
+label+input, td input {padding: 6px; font-size: 14px; background-color: #dee4ea; color: #000; top: -33px;}
+td input {border: 1px solid #555;}
+input[type=file] {position: static; border: none; background-color: transparent; font-size: 12px; padding: 0;}
+
+#subnav .floatright {float: right; margin-left: 4px;}
+.floatright {float: right;}
+.clear {clear: both;}
+
+span.date {float: right; padding-top: 5px;}
+
+h1#title {margin-bottom: 0;}
+h1#title a {font-family: "Times New Roman"; background: #d0d0d0 url("../images/apple-btn.png") repeat-x bottom left; color: #000; text-shadow: 0 1px 1px #dcdcd9; border-radius: 3px; border: 1px solid #555; width: 200px; padding: 10px; text-align: center;}
+
+#content ul {padding: 0;}
+
+#subnav {margin-bottom: 20px;}
+
+#description {position: relative; top: -27px; left: 220px;}
+
+#subnav, #tertiarynav, .tertiarynav-sub {list-style: none; padding: 0;}
+#subnav li, #tertiarynav li, .tertiarynav-sub li {display: inline;}
+#subnav li a, #post, .btn {padding: 10px 15px; background: #d0d0d0 url("../images/apple-btn.png") repeat-x bottom left; color: #000; text-shadow: 0 1px 1px #dcdcd9; border-radius: 3px; border: 1px solid #555;}
+#subnav li a:hover, h1#title a:hover, #submit:hover, #post:hover, .btn:hover {background: #d0d0d0 url("../images/apple-btn-hover.png") repeat-x top left; color: #000; text-shadow: 0 1px 1px #dcdcd9; text-decoration: none;}
+#subnav li a:active, h1#title a:active, #submit:active, #subnav li a.selected, .dark, #post:active, .btn:active {background: #6f6f6f url("../images/apple-btn-active.png") repeat-x bottom left; color: #dcdcd9; text-shadow: 0 1px 1px #000;}
+#tertiarynav, .tertiarynav-sub {background-color: #dee4ea; padding: 4px;}
+#tertiarynav li, .tertiarynav-sub li {border-right: 1px solid #fff; padding: 4px;}
+#tertiarynav li a, .tertiarynav-sub li a {margin-right: 4px;}
+.tertiarynav-sub {margin-top: -15px;}
+
+#post, .btn {padding: 6px 11px; margin-top: 5px; cursor: pointer; font-size: 14px; font-weight: bold;}
+
+.del img, .imgbump {position: relative; top: 3px;}
+.del a {position: relative; top: 1px;}
+.edit {}
+
+.item, .ftext, .quickstats {padding: 10px 15px; background-color: #dee4ea; list-style: none; border-bottom: 1px solid #fff;}
+.item .status, .status {color: #fff; padding: 10px; width: 100px; text-align: center; margin: -10px 0px; float: right; font-weight: bold; text-shadow: 0 1px 1px #000;}
+.status a {color: #fff !important; text-shadow: 0 1px 1px #000 !important;}
+td.red, td.overhead, td.yellow, td.green, td.purple {color: #fff; font-weight: bold; border: none !important; text-shadow: 0 1px 1px #000;}
+.item .red, td.red {background: #d1e4ef url("../images/blue-overlay.png") repeat-x top left;}
+.item .overhead, td.overhead {width: 150px; background-color: #000; color: #fff; text-align: right;}
+.item .green, td.green {background: #a2c3d7 url("../images/blue-overlay.png") repeat-x top left;}
+.item .yellow, td.yellow {background: #6b8b9e url("../images/blue-overlay.png") repeat-x top left;}
+.item .purple, td.purple {background: #3875d7 url("../images/blue-overlay.png") repeat-x top left;}
+.header, .ftext {border-bottom: 1px solid #515151 !important; background: #d0d0d0 url("../images/apple-btn.png") repeat-x bottom left; text-transform: capitalize; font-weight: bold; border-top: 1px solid #e2e2e2; text-shadow: 0 1px 1px #dcdcd9;}
+.header a, #footer a {color: #000; text-shadow: 0 1px 1px #dcdcd9;}
+.red {background-image: url("../images/apple-btn-red.png");}
+.error-red {color: #fff; background-color: #9f1010;}
+.nobg {background-image: none !important;}
+.nopad {margin-right: -15px !important;}
+.item .user {color: #000; width: auto; margin-right: 15px; font-weight: normal;}
+.item .totaloverhead {color: #333; font-weight: normal; width: 230px; text-align: right;}
+.r1 {background-color: #fff;}
+.r2 {background-color: #f0f0f0;}
+
+.nocaps {text-transform: lowercase !important;}
+
+textarea#comment, label+textarea {width: 937px; padding: 10px; height: 150px; font-size: 14px; background-color: #dee4ea; color: #000;}
+label+textarea {width: 730px; margin-top: -6px;}
+
+.ftext a {text-transform: lowercase;}
+
+.quickstats {padding: 0;}
+.quickstats p {padding-left: 10px;}
+
+#search {position: relative; top: -50px; display: inline; float: right;}
+#search input {cursor: pointer;}
+#search input[type=text] {padding: 5px; width: 200px; margin-right: 80px;}
+#submit {float: right; background: #d0d0d0 url("../images/apple-btn.png") repeat-x bottom left; color: #000; text-shadow: 0 1px 1px #dcdcd9; border-radius: 3px; padding: 6px 10px; border: 0; font-weight: bold; font-size: 14px; border: 1px solid #555; position: relative; top: -31px;}
+
+#sectionlinks {padding-top: 10px; margin-top: 10px; border-top: 1px solid #000;}
+a.button {display: block; text-align: center; padding: 10px; background-color: #000; margin: 0 5px 5px 0; height: 56px; width: 56px; float: left; /* text-indent: -9999px; */}
+#sectionlinks #report {background: url("../images/Alert.png") 17px 0px no-repeat;}
+#sectionlinks #assign {background: url("../images/Stationery.png") 17px 0px no-repeat;}
+#sectionlinks #completed {background: url("../images/Favorite.png") 17px 0px no-repeat;}
+#sectionlinks #status {background: url("../images/System.png") 17px 0px no-repeat;}
+#sectionlinks #modbugs {background: url("../images/Tools.png") 17px 0px no-repeat;}
+#sectionlinks #modprojects {background: url("../images/Template.png") 17px 0px no-repeat;}
+#sectionlinks #modusers {background: url("../images/User.png") 17px 0px no-repeat;}
+#sectionlinks #modcomments {background: url("../images/Bin_Full.png") 17px 0px no-repeat;}
+#sectionlinks #delayed {background: url("../images/Flag.png") 17px 0px no-repeat;}
+#sectionlinks #newmessages {background: url("../images/Address_Book.png") 17px 0px no-repeat;}
+#sectionlinks #savedmessages {background: url("../images/Floppy.png") 17px 0px no-repeat;}
+#sectionlinks span {font-size: 9px; position: relative; top: 40px; text-transform: capitalize; left: 3px; text-align: center;}
+#sectionlinks a:hover {text-decoration: none;}
+
+#links {}
+
+#footer .ftext {border-radius: 3px; text-shadow: 0 1px 1px #dcdcd9;}
+
+.adminpostimg {height: 24px; width: 24px;}
+.admintxtwrap {position: relative; top: -4px; left: 5px;}
+
+.adminborder {border: 1px solid #ddd; border-radius: 3px;}
+.adminwrap {border: 1px solid #fff; border-radius: 3px; padding: 10px; background-color: #eee;}

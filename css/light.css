@@ -1,0 +1,76 @@
+body {font-family: Helvetica, sans-serif; font-size: 1em; margin: 20px 0; padding: 0; color: #333;}
+a.lightlink {color: #333;}
+body a, .inactive {color: #000; text-decoration: none;}
+body a:hover {text-decoration: underline;}
+#wrapper {width: 960px; margin: 0 auto;}
+
+#subnav .floatright {float: right; margin-left: 4px;}
+.floatright {float: right;}
+.clear {clear: both;}
+
+span.date {float: right; padding-top: 5px;}
+
+h1#title {margin-bottom: 0;}
+h1#title a {font-family: "Times New Roman"; background: #333; color: #fff; width: 200px; padding: 10px; text-align: center;}
+
+#content ul {padding: 0;}
+
+#subnav {margin-bottom: 20px;}
+
+#description {position: relative; top: -27px; left: 220px;}
+
+#subnav, #tertiarynav, .tertiarynav-sub {list-style: none; padding: 0;}
+#subnav li, #tertiarynav li, .tertiarynav-sub li {display: inline;}
+#subnav li a {padding: 10px 15px; background-color: #333; color: #fff;}
+#tertiarynav, .tertiarynav-sub {background-color: #ccc; padding: 4px;}
+#tertiarynav li, .tertiarynav-sub li {border-right: 1px solid #fff; padding: 4px;}
+#tertiarynav li a, .tertiarynav-sub li a {margin-right: 4px;}
+.tertiarynav-sub {margin-top: -15px;}
+
+.item, .ftext, .quickstats {padding: 10px 15px; background-color: #e7eced; list-style: none; border-bottom: 1px solid #aab2b5;}
+.item .status, .status {color: #fff; padding: 10px; width: 100px; text-align: center; margin: -10px 0px; float: right; font-weight: bold;}
+.nopad {margin-right: -15px !important;}
+td.red, td.overhead, td.yellow, td.green, td.purple {color: #fff; font-weight: bold;}
+.item .red, td.red {background-color: #ff0000;}
+.item .overhead, td.overhead {width: 150px; background-color: #000; color: #fff; text-align: right;}
+.item .green, td.green {background-color: #17a410;}
+.item .yellow, td.yellow {background-color: #eec403;}
+.item .purple, td.purple {background-color: purple;}
+.header, .ftext {border-bottom: 1px solid #fff !important; background-color: #c8cecf; text-transform: capitalize; font-weight: bold;}
+.item .user {color: #000; width: auto; margin-right: 15px; font-weight: normal;}
+.item .totaloverhead {color: #333; font-weight: normal; width: 230px; text-align: right;}
+
+.nocaps {text-transform: lowercase !important;}
+
+textarea#comment {width: 937px; padding: 10px; height: 150px; font-size: 14px;}
+
+.ftext a {text-transform: lowercase;}
+
+.quickstats {padding: 0;}
+.quickstats p {padding-left: 10px;}
+
+#search {position: relative; top: -50px; display: inline; float: right;}
+#search input {cursor: pointer;}
+#search input[type=text] {padding: 5px; width: 200px; margin-right: 80px;}
+#submit {float: right; background-color: #333; padding: 6px 10px; border: 0; font-weight: bold; font-size: 14px; color: #fff; position: relative; top: -31px;}
+
+#sectionlinks {padding-top: 10px; margin-top: 10px; border-top: 1px solid #AAB2B5;}
+a.button {display: block; text-align: center; padding: 10px; background-color: #AAB2B5; margin: 0 5px 5px 0; height: 56px; width: 56px; float: left; /* text-indent: -9999px; */}
+#sectionlinks #report {background: url("../images/Alert.png") 17px 0px no-repeat;}
+#sectionlinks #assign {background: url("../images/Stationery.png") 17px 0px no-repeat;}
+#sectionlinks #completed {background: url("../images/Favorite.png") 17px 0px no-repeat;}
+#sectionlinks #status {background: url("../images/System.png") 17px 0px no-repeat;}
+#sectionlinks #modbugs {background: url("../images/Tools.png") 17px 0px no-repeat;}
+#sectionlinks #modprojects {background: url("../images/Template.png") 17px 0px no-repeat;}
+#sectionlinks #modusers {background: url("../images/User.png") 17px 0px no-repeat;}
+#sectionlinks #modcomments {background: url("../images/Bin_Full.png") 17px 0px no-repeat;}
+#sectionlinks #delayed {background: url("../images/Flag.png") 17px 0px no-repeat;}
+#sectionlinks #newmessages {background: url("../images/Address_Book.png") 17px 0px no-repeat;}
+#sectionlinks #savedmessages {background: url("../images/Floppy.png") 17px 0px no-repeat;}
+#sectionlinks span {font-size: 9px; position: relative; top: 40px; text-transform: capitalize; left: 3px; text-align: center;}
+#sectionlinks a:hover {text-decoration: none;}
+
+#links {}
+
+.adminpostimg {height: 24px; width: 24px;}
+.admintxtwrap {position: relative; top: -4px; left: 5px;}
