@@ -1,6 +1,6 @@
 <?php
 	require_once('lib/config.php');
-
+ 
 	$page_title = $site->DisplayPageTitle();
 	$css_path = $site->url."css/".$site->ParseTheme($site->theme);
 	$script_path = $site->url."js/scripts.js";
